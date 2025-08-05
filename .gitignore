@@ -1,0 +1,15 @@
+# Ignore Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+
+# Ignore env files
+.env
+.env.*
+
+# Ignore logs
+*.log
+
+# macOS
+.DS_Store

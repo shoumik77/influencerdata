@@ -1,15 +1,26 @@
-# Ignore Python artifacts
+# Root
+.DS_Store
+.env
+.env.local
+*.log
+
+# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 venv/
-
-# Ignore env files
-.env
 .env.*
 
-# Ignore logs
-*.log
+# Node
+node_modules/
+dist/
+.next/
+build/
 
-# macOS
-.DS_Store
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+Thumbs.db
